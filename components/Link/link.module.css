@@ -1,0 +1,13 @@
+.link {
+}
+
+.menuLink {
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--accent-dark-primary-color);
+    transition: var(--common-hover-transition);
+}
+
+.menuLink:hover {
+    color: var(--accent-dark-primary-hover-color);
+}

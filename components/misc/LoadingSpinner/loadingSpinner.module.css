@@ -1,0 +1,14 @@
+.icon {
+    animation: loading-spinner-animation 1s linear infinite;
+    width: 50px;
+    fill: var(--accent-dark-primary-color);
+}
+
+@keyframes loading-spinner-animation {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

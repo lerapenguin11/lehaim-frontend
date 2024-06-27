@@ -1,0 +1,32 @@
+.main {
+    width: 100%;
+    min-height: calc(100vh - var(--header-height));
+    padding: 30px var(--desktop-content-container-horizontal-padding);
+}
+
+.searchPatientSection {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 10px;
+    margin: auto 0;
+    padding-bottom: var(--header-height);
+}
+
+.searchPatientSection .label {
+    font-size: 14px;
+    color: var(--text-dark-primary-color);
+    line-height: 14px;
+    width: 100%;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.patientCardsSection {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

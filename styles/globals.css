@@ -1,0 +1,53 @@
+:root {
+    --input-background-color: #f6f6f9;
+    --input-placeholder-text-color: #a9abb7;
+    --text-dark-primary-color: #14142b;
+    --text-dark-secondary-color: #828796;
+    --accent-bright-primary-color: #ffa800;
+    --accent-bright-secondary-color: rgba(255, 199, 0, 0.2);
+
+    --accent-dark-primary-color: #0d72ff;
+    --accent-dark-primary-hover-color: #025fe3; /* TODO: move to figma */
+
+    --text-light-primary-color: #fff;
+    --text-light-primary-hover-color: #e7e7e7; /* TODO: move to figma */
+
+    --accent-secondary-color: #e7f1ff;
+    --accent-light-secondary: #fff4cc;
+
+    --common-border-radius: 10px;
+    --desktop-content-container-max-width: 1200px;
+    --desktop-content-container-horizontal-padding: calc(
+        (100vw - var(--desktop-content-container-max-width)) / 2
+    );
+    --header-height: 100px;
+
+    --common-hover-transition: all 0.5s ease;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        Segoe UI,
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        Fira Sans,
+        Droid Sans,
+        Helvetica Neue,
+        sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}

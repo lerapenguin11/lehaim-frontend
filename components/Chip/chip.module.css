@@ -1,0 +1,9 @@
+.container {
+    background: var(--accent-bright-secondary-color);
+    color: var(--accent-bright-primary-color);
+    border-radius: var(--common-border-radius);
+    padding: 10px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+}

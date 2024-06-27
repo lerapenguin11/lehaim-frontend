@@ -1,0 +1,45 @@
+.container {
+    padding: 15px 15px 30px;
+    border: 2px solid var(--accent-secondary-color);
+    border-radius: var(--common-border-radius);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+
+.content .column {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 10px;
+    height: fit-content;
+    width: 60%;
+}
+
+.content .column.personalInfo {
+    grid-template-columns: 1fr 1fr;
+    width: 40%;
+}
+
+.content .fieldName {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--input-placeholder-text-color);
+    line-height: 16px;
+    text-align: right;
+}
+
+.content .fieldValue {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text-dark-primary-color);
+    line-height: 16px;
+}

@@ -1,0 +1,43 @@
+.card {
+    border: 2px solid var(--accent-secondary-color);
+    border-radius: var(--common-border-radius);
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    text-align: center;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    font-weight: 500;
+    gap: 5px;
+}
+
+.errorMessage {
+    color: red;
+    margin: 10px 0 0;
+    font-size: 14px;
+}
+
+.card > label {
+    width: 100%;
+    display: flex;
+}
+
+.card > label:not(:first-of-type) {
+    margin-top: 15px;
+}
+
+.card > button {
+    margin-top: 30px;
+}
+
+.card > button:last-of-type {
+    margin-top: 15px;
+}

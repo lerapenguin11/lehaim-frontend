@@ -1,0 +1,41 @@
+.container {
+    padding: 15px 25px;
+    border-radius: var(--common-border-radius);
+    border: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    transition: var(--common-hover-transition);
+
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.container.accent {
+    background: var(--accent-dark-primary-color);
+    color: var(--text-light-primary-color);
+}
+
+.container.accent:hover:not(:disabled) {
+    cursor: pointer;
+    background: var(--accent-dark-primary-hover-color);
+}
+
+.container.accent:disabled {
+    background: #4289fa;
+    cursor: default;
+}
+
+.container.outline {
+    border: 2px var(--accent-dark-primary-color) solid;
+    color: var(--accent-dark-primary-color);
+    background: none;
+}
+
+.container.outline:hover {
+    border: 2px var(--accent-dark-primary-color) solid;
+    color: var(--accent-dark-primary-color);
+    background: var(--accent-secondary-color);
+}

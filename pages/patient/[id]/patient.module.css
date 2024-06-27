@@ -1,0 +1,27 @@
+.patientAnalyzes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.patientAnalyzes > button {
+    margin-top: 40px;
+    align-self: flex-end;
+}
+
+.editForm {
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    justify-content: space-between;
+    row-gap: 15px;
+}
+
+.editForm > button {
+    grid-column: 3;
+    margin-top: 20px;
+    justify-self: flex-end;
+}

@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid var(--accent-secondary-color);
+    border-radius: var(--common-border-radius);
+    align-items: center;
+    padding: 15px;
+}
+
+.buttonContainer {
+    display: flex;
+    gap: 20px;
+}

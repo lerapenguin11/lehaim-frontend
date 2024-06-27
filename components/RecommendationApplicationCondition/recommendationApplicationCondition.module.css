@@ -1,0 +1,39 @@
+.container {
+    border: 1px #bdbdbd solid;
+    border-radius: var(--common-border-radius);
+    padding: 10px 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.buttonContainer {
+    justify-content: flex-end;
+    display: flex;
+    width: 100%;
+}
+
+.selectInput {
+    background: var(--input-background-color);
+    border-radius: var(--common-border-radius);
+    height: 44px;
+    min-height: 44px;
+    border: none;
+    padding-left: 15px;
+    flex: 1 1;
+    width: 320px;
+    display: flex;
+}
+
+.selectInputLabel {
+    flex-direction: column;
+    display: flex;
+    gap: 5px;
+    align-self: flex-start;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    color: var(--text-dark-primary-color);
+}

@@ -1,0 +1,24 @@
+.container {
+    max-width: 768px;
+    width: 768px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+/* TODO: fix this temp styles, get rid of redundant tags */
+
+.section {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.section > h3 {
+    margin: 0;
+}
+
+.section:last-of-type + button {
+    margin-top: 50px;
+    align-self: center;
+}

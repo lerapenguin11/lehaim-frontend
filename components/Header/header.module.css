@@ -1,0 +1,45 @@
+.container {
+    background: var(--accent-secondary-color);
+    width: 100%;
+    height: var(--header-height);
+    display: flex;
+    align-items: center;
+    padding: 0 var(--desktop-content-container-horizontal-padding);
+}
+
+.menuList {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    align-items: center;
+}
+
+.logoutButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.logoutButton > svg {
+    transition: var(--common-hover-transition);
+}
+
+.logoutButton:hover > svg {
+    fill: var(--accent-dark-primary-hover-color);
+}
+
+.menuItem {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.menuItem:last-child {
+    margin-left: auto
+}
+
+.logo {
+    position: absolute;
+}

@@ -1,0 +1,17 @@
+.chartTitle {
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+    min-height: 48px;
+}
+
+.chart {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
+.chart:not(:last-of-type) {
+    margin-right: 50px;
+}
